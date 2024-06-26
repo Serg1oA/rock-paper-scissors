@@ -1,4 +1,3 @@
-
 let humanScore = 0;
 let computerScore = 0;
 let roundCounter = 0;
@@ -44,7 +43,7 @@ function playRound(humanChoice, computerChoice) {
         alert("The scissors cut the paper in pieces and... you win!");
         humanScore++;
     } else if (humanChoice === "scissors" && computerChoice === "scissors") {
-        alert("The two scissors hit each other and... it's a draw!")
+        alert("The two scissors hit each other and... it's a draw!");
     }
     roundCounter++;
     updateScores();
